@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({      //An Axios instance named API is created using axios.create()
-  baseURL: "http://localhost:5000",
-  // baseURL: "https://stack-overflow-eight.vercel.app/",
+  // baseURL: "http://localhost:5000",
+  baseURL: "https://codehive07.vercel.app/",
 });
 
 API.interceptors.request.use((req) => {     // interceptor is added to the Axios instance using API.interceptors.request.use
